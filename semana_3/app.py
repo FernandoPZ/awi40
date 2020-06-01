@@ -1,7 +1,7 @@
 import web
 
 urls = (
-    '/(.*)', 'tax.controllers.visitas.Visitas'
+    '/(.*)', 'tax.controlles.visitas.Visitas'
 )
 app = web.application(urls, globals())
 

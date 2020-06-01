@@ -11,10 +11,10 @@ class Visitas:
 
         print(cookie)
         if nombre:
-          web.setcookie("nombre",nombre,expires="",domain=None)
+          web.setcookie("Nombre",nombre,expires="",domain=None)
         else:
-          nombre="NA"
-          web.setcookie("nombre",nombre,expires="",domain=None)
+          nombre="Anonimo"
+          web.setcookie("Nombre",nombre,expires="",domain=None)
 
         if cookie.get("visitas"):
           visitas = int(cookie.get("visitas"))
