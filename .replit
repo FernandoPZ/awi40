@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 pycnic/hello.py"
+run = "python3 pycnic02/app.py"
